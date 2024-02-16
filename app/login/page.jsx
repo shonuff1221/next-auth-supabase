@@ -75,6 +75,12 @@ export default function LoginPage(){
                 >
                     Logout
                 </button>
+                <button 
+                    onClick= { () => router.push('/')}
+                    className="w-full p-3 rounded-md bg-blue-500 text-white hover:bg-blue-600 focus:outline-none"
+                >
+                    Go Home
+                </button>
             </div>
         </div>
         )
